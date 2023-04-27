@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap");
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  max-width: 1348px;
+}
+.logo-img{
+  max-width: 120px;
+  object-fit: contain;
+}
+.carousel-inner img{
+  height: 417px;
+}
+.carousel-inner.carousel-item .active img{
+  height: 360px;
+}
+.carousel-caption h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.carousel-item .carousel-caption .text-white h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.Get-Quote button{
+  width: 120px;
+  height: 41px;
+  border-radius: 5px;
+  border: none;
+  background-color: orange;
+  color:white
+}
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  left: 0px;
+  z-index: 99;
+}
+.icon-bar div {
+  display: block;
+  text-align: center;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+  color: white;
+  border: 1px solid #fff;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.phone{
+  background-color: #0000ff;
+}
+.whatapp{
+  background-color: #008000;
+}
+.message{
+  background-color: #ff0000;
+}
+
+
+@media(max-width: 236px){
+    .logo-img{
+        max-width: 20px;
+        object-fit: contain;
+    }
+    
+}
+@media(min-width: 576px){
+    .logo-img{
+        max-width: 150px;
+        object-fit: contain;
+    }
+}
+@media(min-width: 768px){
+    .logo-img{
+        max-width: 200px;
+        object-fit: contain;
+    }
+
+}
+@media(min-width: 992px){
+    .logo-img{
+        max-width: 200px;
+        object-fit: contain;
+    }
+    .carousel-caption h1{
+        position: relative;
+        bottom: 70px;
+        margin-left: 397px;
+        font-size: 36px;
+        font-weight: 512;
+        text-align: initial
+    }
+    .Get-Quote button{
+        position: relative;
+        bottom: 70px;
+        left: 112px;
+      
+    }
+
+}
+@media(min-width: 1200px){
+    .logo-img{
+        max-width: 250px;
+        object-fit: contain;
+    }
+    .carousel-caption h1{
+        position: relative;
+        bottom: 113px;
+        margin-left: 550px;
+        font-size: 48px;
+        font-weight: 512;
+        text-align: initial
+    }
+    .Get-Quote button{
+        position: relative;
+        bottom: 104px;
+        left: 93px;
+      
+    }
+
+}
