@@ -24,6 +24,9 @@ body{
   font-size: 30px;
   margin-bottom: 25px;
 }
+/* .about-image{
+  margin-top: -154px;
+} */
 .Get-Quote button{
   width: 120px;
   height: 41px;
@@ -65,8 +68,8 @@ body{
         max-width: 120px;
         object-fit: contain;
     }
-    .carousel-inner img {
-      height: 315px;
+    .carousel-inner img{
+      height: 345px;
     }
     .main-banner-content{
       position: relative;
@@ -79,15 +82,17 @@ body{
       margin-bottom: 25px;
 
     }
-    /* .main-banner-content{
-      position: relative;
-      bottom: 262px;
-      text-align: center;
+    .carousel-indicators{
+      position: absolute;
+      bottom: 180px;
     }
-    .main-banner-content h1{
-      font-size: 29px;
-      font-weight: 700;
+    .about-image img{
+      max-width: 205px;
+    }
+    /* .about-image{
+      margin-top: -184px;
     } */
+
 
     
 }
@@ -110,6 +115,19 @@ body{
       top: 0px;
       text-align: center;
     }
+    .carousel-indicators{
+      position: absolute;
+      bottom: 180px;
+    }
+    .carousel-inner img {
+      height: 415px;
+    }
+    .about-image img{
+      max-width: 510px;
+    }
+    /* .about-image{
+      margin-top: -178px;
+    } */
 }
 @media(min-width: 768px){
     .logo-img{
@@ -130,6 +148,16 @@ body{
       top: 0px;
       text-align: center;
     }
+    .carousel-indicators{
+      position: absolute;
+      bottom: 170px;
+    }
+    .carousel-inner img {
+      height: 415px;
+    }
+    /* .about-image{
+      margin-top: -138px;
+    } */
 
 }
 @media(min-width: 992px){
@@ -139,8 +167,8 @@ body{
     }
     .main-banner-content{
       position: relative;
-      left: 606px;
-      bottom: 260px;
+      left: 600px;
+      bottom: 300px;
       text-align: initial;
       text-align: initial;
     }
@@ -161,6 +189,52 @@ body{
       color: #fff;
       text-align: center;
     }
+    .carousel-indicators{
+      position: absolute;
+      bottom: 250px;
+    }
+    .carousel-inner img {
+      height: 415px;
+    }
+    .container {
+      max-width: 1060px;
+    }
+    .number{
+      position: absolute;
+      right: 425px;
+      bottom: 275px;
+      font-size: 46px;
+      max-width: 183px;
+    }
+    .number{
+      max-width: 10px;
+    }
+    .number h3{
+      max-width: 120px;
+    }
+    .number-1{
+      position: absolute;
+      right: 425px;
+      bottom: 180px;
+      font-size: 46px;
+      max-width: 183px;
+    }
+    .number-1{
+      max-width: 10px;
+    }
+    .number-2{
+      position: absolute;
+      right: 425px;
+      bottom: 148px;
+      font-size: 46px;
+      max-width: 183px;
+    }
+    .number-2{
+      max-width: 10px;
+    }
+    /* .about-image{
+      margin-top: -238px;
+    } */
 
   
 
@@ -171,7 +245,7 @@ body{
         object-fit: contain;
     }
     .carousel-inner img{
-      height: 417px;
+      height: 412px;
     }
     .main-banner-content{
       position: relative;
@@ -195,6 +269,14 @@ body{
       color: #fff;
       text-align: center;
     }
+    .carousel-indicators{
+      position: absolute;
+      bottom: 300px;
+    }
+    /* .about-image{
+      margin-top: -285px;
+    } */
+
     @media(min-width: 1348px){
       .logo-img{
           max-width: 250px;
