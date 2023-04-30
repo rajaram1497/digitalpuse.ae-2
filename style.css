@@ -61,6 +61,14 @@ body{
 .message{
   background-color: #ff0000;
 }
+.btn-link{
+  background-color: #f68b1f;
+  width: 160px;
+  color: white;
+  border-radius: 5px;
+}
+
+
 
 
 @media(min-width: 236px){
@@ -89,9 +97,55 @@ body{
     .about-image img{
       max-width: 205px;
     }
-    /* .about-image{
-      margin-top: -184px;
-    } */
+    .about-content .sub-title{
+      font-size: 15px;
+      color: #f68b1f;
+      font-weight: 700;
+      
+      
+    }
+    .about-content h2{
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .about-content{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .about-content p{
+      color: #4b5280;
+      font-weight: 500;
+    }
+    .sub-list{
+      /* display: flex; */
+      text-align: center;
+      font-size: 17px;
+      /* gap: 70px; */
+     }
+     .sub-list .list h4{
+      position: absolute;
+      top: 227px;
+      left: 280px;
+    }
+    .sub-list .list h3{
+      position: absolute;
+      top: 290px;
+      left: 280px;
+      font-size: 33px;
+      font-weight: 800;
+    }
+    .sub-list .list h1{
+      position: absolute;
+      top: 366px;
+      left: 287px;
+      font-size: 36px;
+      font-weight: 800;
+    }
+    .fa-arrow-up-right-dots{
+      font-size: 30px;
+     }
+
+
 
 
     
@@ -125,9 +179,59 @@ body{
     .about-image img{
       max-width: 510px;
     }
-    /* .about-image{
-      margin-top: -178px;
-    } */
+    .about-content .sub-title{
+      font-size: 15px;
+      color: #f68b1f;
+      font-weight: 700;
+      
+      
+    }
+    .about-content h2{
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .about-content{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .about-content p{
+      color: #4b5280;
+      font-weight: 500;
+    }
+    .sub-list li .list h4{
+      font-size: 30px;
+      font-weight: 800;
+    }
+    .sub-list{
+      display: flex;
+      text-align: initial;
+      font-size: 17px;
+      gap: 70px;
+     }
+     .sub-list .list h4{
+      position: absolute;
+      top: 220px;
+      left: 100px;
+    }
+    .sub-list .list h3{
+      position: absolute;
+      top: 220px;
+      left: 260px;
+      font-size: 33px;
+      font-weight: 800;
+    }
+    .sub-list .list h1{
+      position: absolute;
+      top: 220px;
+      left: 450px;
+      font-size: 36px;
+      font-weight: 800;
+    }
+    .fa-arrow-up-right-dots{
+      font-size: 30px;
+     }
+
+
 }
 @media(min-width: 768px){
     .logo-img{
@@ -155,9 +259,59 @@ body{
     .carousel-inner img {
       height: 415px;
     }
-    /* .about-image{
-      margin-top: -138px;
-    } */
+    .about-content .sub-title{
+      font-size: 18px;
+      color: #f68b1f;
+      font-weight: 700;
+      
+      
+    }
+    .about-content h2{
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .about-content{
+      text-align: center;
+      margin-top: 30px;
+    }
+    .about-content p{
+      color: #4b5280;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .sub-list li .list h4{
+      font-size: 35px;
+      font-weight: 800;
+    }
+    .sub-list .list h4{
+      position: absolute;
+      top: 212px;
+      left: 100px;
+    }
+    .sub-list .list h3{
+      position: absolute;
+      top: 215px;
+      left: 320px;
+      font-size: 33px;
+      font-weight: 800;
+    }
+    .sub-list .list h1{
+      position: absolute;
+      top: 213px;
+      left: 590px;
+      font-size: 36px;
+      font-weight: 800;
+    }
+    .fa-arrow-up-right-dots{
+      font-size: 30px;
+     }
+     .sub-list{
+      display: flex;
+      text-align: initial;
+      font-size: 21px;
+      gap: 70px;
+     }
+
 
 }
 @media(min-width: 992px){
@@ -199,39 +353,56 @@ body{
     .container {
       max-width: 1060px;
     }
-    .number{
+    .about-content .sub-title{
+      font-size: 15px;
+      color: #f68b1f;
+      font-weight: 700;
+      
+      
+    }
+    .about-content h2{
+      font-weight: 700;
+      margin-top: 20px;
+    }
+    .about-content{
+      text-align: initial;
+      margin-top: 30px;
+    }
+    .about-content p{
+      color: #4b5280;
+      font-weight: 500;
+    }
+    .sub-list{
+      display: flex;
+    }
+    .sub-list li h4{
+      font-size: 35px;
+      font-weight: 800;
+    }
+    .sub-list .list h4{
       position: absolute;
-      right: 425px;
-      bottom: 275px;
-      font-size: 46px;
-      max-width: 183px;
+      top: 268px;
+      left: 102px;
     }
-    .number{
-      max-width: 10px;
-    }
-    .number h3{
-      max-width: 120px;
-    }
-    .number-1{
+    .sub-list .list h3{
       position: absolute;
-      right: 425px;
-      bottom: 180px;
-      font-size: 46px;
-      max-width: 183px;
+      top: 269px;
+      left: 245px;
+      font-size: 33px;
+      font-weight: 800;
     }
-    .number-1{
-      max-width: 10px;
-    }
-    .number-2{
+    .sub-list .list h1{
       position: absolute;
-      right: 425px;
-      bottom: 148px;
-      font-size: 46px;
-      max-width: 183px;
+      top: 268px;
+      left: 413px;
+      font-size: 36px;
+      font-weight: 800;
     }
-    .number-2{
-      max-width: 10px;
-    }
+
+     .fa-arrow-up-right-dots{
+      font-size: 40px;
+     }
+    
     /* .about-image{
       margin-top: -238px;
     } */
@@ -249,7 +420,7 @@ body{
     }
     .main-banner-content{
       position: relative;
-      left: 620px;
+      left: 720px;
       bottom: 397px;
       text-align: initial;
     }
@@ -273,6 +444,77 @@ body{
       position: absolute;
       bottom: 300px;
     }
+    .about-content .sub-title{
+      font-size: 16px;
+      color: #f68b1f;
+      font-weight: 700;
+      
+      
+    }
+    .about-content h2{
+      font-weight: 700;
+      margin-top: 5px;
+      font-size: 43px;
+    }
+    .about-content{
+      text-align: initial;
+      margin-top: 15px;
+      margin-left: 35px;
+    }
+    .about-content p{
+      color: #4b5280;
+      font-weight: 500;
+      font-size: 17px;
+    }
+    .about-image img {
+      max-width: 580px;
+    }
+    .sub-list li p{
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .sub-list li h4{
+      font-size: 35px;
+      font-weight: 800;
+    }
+    .sub-list{
+      display: flex;
+    }
+    .sub-list .list h4{
+      position: absolute;
+      top: 327px;
+      left: 135px;
+    }
+    .sub-list .list h3{
+      position: absolute;
+      top: 327px;
+      left: 318px;
+      font-size: 33px;
+      font-weight: 800;
+    }
+    .sub-list .list h1{
+      position: absolute;
+      top: 327px;
+      left: 533px;
+      font-size: 36px;
+      font-weight: 800;
+    }
+    /* .sub-list h4{
+      position: absolute;
+      top: 210px;
+      left: 126px;
+    }
+    .sub-list h4{
+      position: absolute;
+      top: 210px;
+      left: 126px;
+    } */
+    /* .sub-list .list-3 h4{
+      position: absolute;
+      top: 210px;
+      left: 126px;
+    } */
+
     /* .about-image{
       margin-top: -285px;
     } */
@@ -302,6 +544,9 @@ body{
         padding-bottom: 20px;
         color: #fff;
         text-align: center;
+      }
+      .about-image img {
+        max-width: 580px;
       }
     }
 
