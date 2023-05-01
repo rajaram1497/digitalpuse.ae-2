@@ -144,6 +144,54 @@ body{
     .fa-arrow-up-right-dots{
       font-size: 30px;
      }
+     .circle-box{
+      margin-top: 53px;
+      display: flex;
+      justify-content: center;
+    }
+    .circle-box button{
+      width: 70px;
+      height: 70px;
+      border-radius: 70px;
+      border: none;
+      background-color: antiquewhite;
+    }
+    .card{
+      background-color: #1b1464;
+      width: 200px;
+      margin-top: 40px;
+      
+    }
+    .card-title{
+      text-align: center;
+      color: white;
+    }
+    .card-body p{
+      color: white;
+      text-align: center;
+    }
+    .small-title{
+      text-align: center;
+      color: orange;
+      font-size: 20px;
+    }
+    .services{
+      text-align: center;
+      font-size: 30px;
+    }
+    .device p{
+      position: relative;
+      top: 26px;
+      right: 42px;
+      text-align: initial;
+    }
+    .device h1{
+      font-size: 19px;
+      margin-bottom: 65px;
+      margin-left: 15px;
+      position: relative;
+      left: -5px;
+    }
 
 
 
@@ -230,6 +278,47 @@ body{
     .fa-arrow-up-right-dots{
       font-size: 30px;
      }
+     .circle-box{
+      margin-top: 53px;
+      display: flex;
+      justify-content: center;
+    }
+    .circle-box button{
+      width: 80px;
+      height: 80px;
+      border-radius: 51px;
+      border: none;
+      background-color: antiquewhite;
+    }
+    .card{
+      background-color: #1b1464;
+      width: 400px;
+    }
+    .card-title{
+      text-align: center;
+      color: white;
+    }
+    .card-body p{
+      color: white;
+      text-align: center;
+    }
+    .small-title{
+      text-align: center;
+      color: orange;
+      font-size: 20px;
+    }
+    .services{
+      text-align: center;
+      font-size: 30px;
+    }
+    .device p{
+      position: relative;
+      top: 28px;
+      right: 42px;
+    }
+    .device h1{
+      font-size: 20px;
+    }
 
 
 }
@@ -311,6 +400,47 @@ body{
       font-size: 21px;
       gap: 70px;
      }
+     .circle-box{
+      margin-top: 53px;
+      display: flex;
+      justify-content: center;
+    }
+    .circle-box button{
+      width: 80px;
+      height: 80px;
+      border-radius: 51px;
+      border: none;
+      background-color: antiquewhite;
+    }
+    .card{
+      background-color: #1b1464;
+      width: 317px;
+    }
+    .card-title{
+      text-align: center;
+      color: white;
+    }
+    .card-body p{
+      color: white;
+      text-align: center;
+    }
+    .small-title{
+      text-align: center;
+      color: orange;
+      font-size: 20px;
+    }
+    .services{
+      text-align: center;
+      font-size: 30px;
+    }
+    .device p{
+      position: relative;
+      top: 28px;
+      right: 42px;
+    }
+    .device h1{
+      font-size: 20px;
+    }
 
 
 }
@@ -402,6 +532,48 @@ body{
      .fa-arrow-up-right-dots{
       font-size: 40px;
      }
+     .circle-box{
+      margin-top: 53px;
+      display: flex;
+      justify-content: center;
+    }
+    .circle-box button{
+      width: 80px;
+      height: 80px;
+      border-radius: 51px;
+      border: none;
+      background-color: antiquewhite;
+    }
+    .card{
+      background-color: #1b1464;
+      width: 300px;
+    }
+    .card-title{
+      text-align: center;
+      color: white;
+    }
+    .card-body p{
+      color: white;
+      text-align: center;
+    }
+    .small-title{
+      text-align: center;
+      color: orange;
+      font-size: 20px;
+    }
+    .services{
+      text-align: center;
+      font-size: 30px;
+    }
+    .device p{
+      position: relative;
+      top: 28px;
+      right: 42px;
+    }
+    .device h1{
+      font-size: 20px;
+    }
+  
     
     /* .about-image{
       margin-top: -238px;
@@ -518,6 +690,28 @@ body{
     /* .about-image{
       margin-top: -285px;
     } */
+    .btn-1{
+      position: relative;
+      left: 36px;
+      width: 180px;
+      height: 47px;
+      border: none;
+      border-radius: 5px;
+      background-color: #1b1464;
+      z-index: 1;
+    }
+    .circle{
+      position: absolute;
+      width: 55px;
+      height: 47px;
+      border-radius: 50px;
+      background-color: #f68b1f;
+      left: 0;
+      top: 0px;
+      z-index: 2;
+      transition: width 2s;
+    }
+    
 
     @media(min-width: 1348px){
       .logo-img{
