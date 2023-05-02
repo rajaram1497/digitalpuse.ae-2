@@ -28,12 +28,14 @@ body{
   margin-top: -154px;
 } */
 .Get-Quote button{
-  width: 120px;
-  height: 41px;
+  width: 136px;
+  height: 46px;
   border-radius: 5px;
   border: none;
-  background-color: orange;
-  color:white
+  background-color: #f68b1f;
+  color:white;
+  font-weight: 800;
+  font-size: 15px;
 }
 .icon-bar {
   position: fixed;
@@ -66,6 +68,9 @@ body{
   width: 160px;
   color: white;
   border-radius: 5px;
+}
+.sub-list li{
+  display: flex;
 }
 
 
@@ -554,7 +559,8 @@ body{
     }
     .card-body p{
       color: white;
-      text-align: center;
+      text-align: justify;
+      font-size: 18px;
     }
     .small-title{
       text-align: center;
@@ -584,7 +590,8 @@ body{
 }
 @media(min-width: 1200px){
     .logo-img{
-        max-width: 250px;
+        max-width: 256.5px;
+        padding: 16px;
         object-fit: contain;
     }
     .carousel-inner img{
@@ -640,6 +647,7 @@ body{
     }
     .about-image img {
       max-width: 580px;
+      margin-left: 30px;
     }
     .sub-list li p{
       font-size: 20px;
@@ -651,6 +659,7 @@ body{
     }
     .sub-list{
       display: flex;
+      margin-left: -41px;
     }
     .sub-list .list h4{
       position: absolute;
@@ -711,16 +720,25 @@ body{
       z-index: 2;
       transition: width 2s;
     }
+    .card{
+      background-color: #1b1464;
+      width: 381px;
+      height: 425px;
+    }
+    .card-body p{
+      color: white;
+      text-align: justify;
+    }
     
 
     @media(min-width: 1348px){
       .logo-img{
-          max-width: 250px;
+          max-width: 256.5px;
           object-fit: contain;
       }
       .carousel-inner .main-banner-content{
         position: relative;
-        left: 760px;
+        left: 720px;
         bottom: 410px;
         text-align: initial;
       }
