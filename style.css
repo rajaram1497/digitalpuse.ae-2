@@ -935,11 +935,57 @@ body{
     .testimonials-content h2{
       font-size: 42px;
       font-weight: 800;
+      width: 450px;
     }
     .carousel-inner-1 p{
       width: 520px;
       font-size: 15.5px;
     }
+    .device img{
+      max-width: 70px;
+      border-radius: 70px;
+    }
+    .device h1{
+      position: relative;
+      top: 10px;
+      font-weight: 800;
+    }
+    .device p {
+      position: relative;
+      top: 13px;
+      right: 45px;
+    }
+    .form-control{
+      height: 52px;
+      width: 225px;
+    }
+    .get-start h1{
+      position: relative;
+      text-align: center;
+      font-size: 1.75rem;
+      top: 140px;
+      font-weight: 800;
+    }
+    .btn-danger{
+      position: absolute;
+      left: 615px;
+      margin-top: 15px;
+      width: 135px;
+    }
+    .content{
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .paragraph p{
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.8rem;
+      font-weight: 400;
+    }
+    .paragraph-1 p{
+      font-size: 16px;
+    }
+
 
 
     @media(min-width: 1348px){
