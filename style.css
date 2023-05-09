@@ -76,6 +76,7 @@ body{
 
 
 
+
 @media(min-width: 236px){
     .logo-img{
         max-width: 120px;
@@ -101,6 +102,7 @@ body{
     }
     .about-image img{
       max-width: 205px;
+      margin-top: 96px;
     }
     .about-content .sub-title{
       font-size: 15px;
@@ -199,10 +201,10 @@ body{
     }
     .btn-1{
       position: relative;
-      width: 210px;
+      width: 180px;
       height: 45px;
       border: none;
-      left: 65px;
+      left: -4px;
       /* border: 2px solid #000; */
       /* border-radius: 50px; */
       z-index: 1;
@@ -219,7 +221,7 @@ body{
       transition: .5s cubic-bezier(1 , 0 , .8 , 1);
     }
     .btn-1:hover .circle{
-      width: 200px;
+      width: 160px;
     }
     .fa-arrow-right{
       position: relative;
@@ -229,7 +231,7 @@ body{
     .text{
       position: absolute;
       top: -2px;
-      left: 70px;
+      left: 59px;
       line-height: 50px;
       z-index: 3;
       color: #f68b1f;
@@ -240,6 +242,71 @@ body{
     }
     .btn-1:hover .text{
       color: white;
+    }
+    .text-white-1{
+      height: 1126px;
+    }
+    .testimonials-content h2{
+      font-size: 42px;
+      font-weight: 800;
+      width: 450px;
+    }
+    .testimonials-image{
+      display: inline-block;
+    }
+    .carousel-inner-1 p{
+      width: 360px;
+      font-size: 15.5px;
+    }
+    .device img{
+      max-width: 70px;
+      border-radius: 70px;
+    }
+    .device h1{
+      position: relative;
+      top: 10px;
+      font-weight: 800;
+    }
+    .device p {
+      position: relative;
+      top: 13px;
+      right: 45px;
+    }
+    .form-control{
+      height: 55px;
+      width: 535px;
+    }
+    .name{
+      margin-top: 145px; 
+      gap: 10px;
+
+    }
+    .get-start h1{
+      position: relative;
+      text-align: center;
+      font-size: 1.75rem;
+      top: 140px;
+      left: 30px;
+      font-weight: 800;
+    }
+    .btn-danger{
+      position: absolute;
+      left: 345px;
+      margin-top: 15px;
+      width: 135px;
+    }
+    .content{
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .paragraph p{
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.8rem;
+      font-weight: 400;
+    }
+    .paragraph-1 p{
+      font-size: 16px;
     }
 
 
@@ -412,6 +479,72 @@ body{
     .btn-1:hover .text{
       color: white;
     }
+    .testimonials-content h2{
+      font-size: 42px;
+      font-weight: 800;
+      width: 450px;
+    }
+    .testimonials-image{
+      display: inline-block;
+    }
+    .carousel-inner-1 p{
+      width: 360px;
+      font-size: 15.5px;
+    }
+    .device img{
+      max-width: 70px;
+      border-radius: 70px;
+    }
+    .device h1{
+      position: relative;
+      top: 10px;
+      font-weight: 800;
+    }
+    .device p {
+      position: relative;
+      top: 13px;
+      right: 45px;
+    }
+    .form-control{
+      height: 55px;
+      width: 535px;
+    }
+    .name{
+      margin-top: 145px; 
+      gap: 10px;
+
+    }
+    .get-start h1{
+      position: relative;
+      text-align: center;
+      font-size: 1.75rem;
+      top: 140px;
+      left: 30px;
+      font-weight: 800;
+    }
+    .btn-danger{
+      position: absolute;
+      left: 345px;
+      margin-top: 15px;
+      width: 135px;
+    }
+    .content{
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .paragraph p{
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.8rem;
+      font-weight: 400;
+    }
+    .paragraph-1 p{
+      font-size: 16px;
+    }
+    .about-image img {
+      /* max-width: 580px; */
+      margin-top: 102px;
+    }
 
 
 }
@@ -577,6 +710,71 @@ body{
     }
     .btn-1:hover .text{
       color: white;
+    }
+    .testimonials-content h2{
+      font-size: 42px;
+      font-weight: 800;
+      width: 450px;
+    }
+    .testimonials-image{
+      display: inline-block;
+    }
+    .carousel-inner-1 p{
+      width: 360px;
+      font-size: 15.5px;
+    }
+    .device img{
+      max-width: 70px;
+      border-radius: 70px;
+    }
+    .device h1{
+      position: relative;
+      top: 10px;
+      font-weight: 800;
+    }
+    .device p {
+      position: relative;
+      top: 13px;
+      right: 45px;
+    }
+    .form-control{
+      height: 52px;
+      width: 175px;
+    }
+    .name{
+      margin-top: 145px; 
+      gap: 85px;
+    }
+    .get-start h1{
+      position: relative;
+      text-align: center;
+      font-size: 1.75rem;
+      top: 140px;
+      left: 30px;
+      font-weight: 800;
+    }
+    .btn-danger{
+      position: absolute;
+      left: 345px;
+      margin-top: 15px;
+      width: 135px;
+    }
+    .content{
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .paragraph p{
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.8rem;
+      font-weight: 400;
+    }
+    .paragraph-1 p{
+      font-size: 16px;
+    }
+    .about-image img {
+      /* max-width: 580px; */
+      margin-top: 102px;
     }
 
 
@@ -757,11 +955,77 @@ body{
     .btn-1:hover .text{
       color: white;
     }
+    .testimonials-image{
+      height: 690px;
+      width: 350px;
+      /* background-position: center center; */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url(./assect/testimonials-img.jpg);
+    }
+    .testimonials-content h2{
+      font-size: 42px;
+      font-weight: 800;
+      width: 450px;
+    }
+    .carousel-inner-1 p{
+      width: 360px;
+      font-size: 15.5px;
+    }
+    .device img{
+      max-width: 70px;
+      border-radius: 70px;
+    }
+    .device h1{
+      position: relative;
+      top: 10px;
+      font-weight: 800;
+    }
+    .device p {
+      position: relative;
+      top: 13px;
+      right: 45px;
+    }
+    .form-control{
+      height: 52px;
+      width: 225px;
+    }
+    .name{
+      margin-top: 145px; 
+      gap: 90px;
+    }
+    .get-start h1{
+      position: relative;
+      text-align: center;
+      font-size: 1.75rem;
+      top: 140px;
+      font-weight: 800;
+    }
+    .btn-danger{
+      position: absolute;
+      left: 470px;
+      margin-top: 15px;
+      width: 135px;
+    }
+    .content{
+      font-size: 25px;
+      font-weight: 800;
+    }
+    .paragraph p{
+      font-size: 16px;
+      text-align: justify;
+      line-height: 1.8rem;
+      font-weight: 400;
+    }
+    .paragraph-1 p{
+      font-size: 16px;
+    }
+    .about-image img {
+      /* max-width: 580px; */
+      margin-top: 42px;
+    }
   
-    
-    /* .about-image{
-      margin-top: -238px;
-    } */
+
 
   
 
@@ -950,6 +1214,10 @@ body{
       top: 10px;
       font-weight: 800;
     }
+    .name{
+      margin-top: 145px; 
+      gap: 30px;
+    }
     .device p {
       position: relative;
       top: 13px;
@@ -985,6 +1253,16 @@ body{
     .paragraph-1 p{
       font-size: 16px;
     }
+    .text-white-1{
+      height: 545px;
+      color: white;
+    }
+    .about-image img {
+      max-width: 580px;
+      margin-top: -9px;
+    }
+
+
 
 
 
