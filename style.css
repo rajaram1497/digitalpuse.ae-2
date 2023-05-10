@@ -72,6 +72,35 @@ body{
 .sub-list li{
   display: flex;
 }
+.btn-primary{
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+.fa-facebook-f {
+  font-size: 15px;
+  position: relative;
+  bottom: 2px;
+  right: -0.5px;
+}
+.fa-youtube{
+  font-size: 15px;
+  position: relative;
+  bottom: 1px;
+  right: 3px;
+}
+.fa-instagram{
+  font-size: 15px;
+  position: relative;
+  bottom: 1px;
+  right: 2px;
+}
+.fa-linkedin-in{
+  font-size: 15px;
+  position: relative;
+  bottom: 1px;
+  right: 2px;
+}
 
 
 
@@ -122,6 +151,7 @@ body{
     .about-content p{
       color: #4b5280;
       font-weight: 500;
+      font-size: 16px;
     }
     .sub-list{
       /* display: flex; */
@@ -180,7 +210,7 @@ body{
     .small-title{
       text-align: center;
       color: orange;
-      font-size: 20px;
+      font-size: 15px;
     }
     .services{
       text-align: center;
@@ -247,30 +277,65 @@ body{
       height: 1126px;
     }
     .testimonials-content h2{
-      font-size: 42px;
+      font-size:25px;
       font-weight: 800;
-      width: 450px;
+      width: 140px;
+      text-align: center;
+      margin-left: -25px;
+      margin-top: 10px;
+    }
+    .testimonials-page .row{
+      margin-left: 13px;
     }
     .testimonials-image{
       display: inline-block;
     }
     .carousel-inner-1 p{
-      width: 360px;
+      width: 221px;
       font-size: 15.5px;
+      margin-left: -66px;
+      text-align: center;
     }
     .device img{
-      max-width: 70px;
+      max-width: 52px;
       border-radius: 70px;
+      position: relative;
+      left: -57px;
     }
     .device h1{
       position: relative;
       top: 10px;
+      left: -54px;
       font-weight: 800;
     }
     .device p {
       position: relative;
-      top: 13px;
-      right: 45px;
+      top: 18px;
+      right: 27px;
+      text-align: initial;
+    }
+    .small-title-1{
+      text-align: center;
+      color: #f68b1f;
+      font-size: 13px;
+      font-weight: 700;
+      margin-left: 0px;
+    }
+    .small-title{
+      text-align: center;
+      color: #f68b1f;
+      font-size: 13px;
+      font-weight: 700;
+      margin-left: 3px;
+    }
+    .services{
+      text-align: center;
+      font-size: 30px;
+    }
+    .services h1{
+      font-size: 28px;
+      font-weight: 800;
+      margin-top: 10px;
     }
     .form-control{
       height: 55px;
@@ -307,6 +372,10 @@ body{
     }
     .paragraph-1 p{
       font-size: 16px;
+    }
+    .text-white-1{
+      height: 1500px;
+      color: white;
     }
 
 
@@ -408,7 +477,7 @@ body{
     }
     .card{
       background-color: #1b1464;
-      width: 400px;
+      width: 241px;
     }
     .card-title{
       text-align: center;
@@ -418,10 +487,19 @@ body{
       color: white;
       text-align: center;
     }
+    .small-title-1{
+      text-align: center;
+      color: #f68b1f;
+      font-size: 13px;
+      font-weight: 700;
+      margin-left: 0px;
+    }
     .small-title{
       text-align: center;
-      color: orange;
-      font-size: 20px;
+      color: #f68b1f;
+      font-size: 13px;
+      font-weight: 700;
+      margin-left: 170px;
     }
     .services{
       text-align: center;
@@ -440,7 +518,7 @@ body{
       width: 210px;
       height: 45px;
       border: none;
-      left: 65px;
+      left: 10px;
       /* border: 2px solid #000; */
       /* border-radius: 50px; */
       z-index: 1;
@@ -479,21 +557,30 @@ body{
     .btn-1:hover .text{
       color: white;
     }
+    .services h1{
+      font-size: 28px;
+      font-weight: 800;
+    }
     .testimonials-content h2{
-      font-size: 42px;
+      font-size: 28px;
       font-weight: 800;
       width: 450px;
+      margin-left: 0px;
+      margin-top: 10px;
     }
     .testimonials-image{
       display: inline-block;
     }
     .carousel-inner-1 p{
-      width: 360px;
-      font-size: 15.5px;
+      width: 515px;
+      font-size: 14px;
+      margin-left: -40px;
+      line-height: 1.8;
     }
     .device img{
       max-width: 70px;
       border-radius: 70px;
+      margin-left: 170px;
     }
     .device h1{
       position: relative;
@@ -503,7 +590,7 @@ body{
     .device p {
       position: relative;
       top: 13px;
-      right: 45px;
+      right: 53px;
     }
     .form-control{
       height: 55px;
@@ -544,6 +631,10 @@ body{
     .about-image img {
       /* max-width: 580px; */
       margin-top: 102px;
+    }
+    .text-white-1{
+      height: 1180px;
+      color: white;
     }
 
 
@@ -638,9 +729,14 @@ body{
       border: none;
       background-color: antiquewhite;
     }
+    .services h1{
+      font-size: 35px;
+      font-weight: 800;
+      margin-top: 10px;
+    }
     .card{
       background-color: #1b1464;
-      width: 317px;
+      width: 338px;
     }
     .card-title{
       text-align: center;
@@ -652,8 +748,10 @@ body{
     }
     .small-title{
       text-align: center;
-      color: orange;
-      font-size: 20px;
+      color: #f68b1f;
+      font-size: 14.5px;
+      margin-left: -20px;
+      font-weight: 700;
     }
     .services{
       text-align: center;
@@ -712,20 +810,27 @@ body{
       color: white;
     }
     .testimonials-content h2{
-      font-size: 42px;
+      font-size: 35px;
       font-weight: 800;
-      width: 450px;
+      width: 575px;
+      margin-left: -56px;
+      margin-top: 12px;
     }
     .testimonials-image{
       display: inline-block;
     }
     .carousel-inner-1 p{
-      width: 360px;
-      font-size: 15.5px;
+      width: 690px;
+      font-size: 15px;
+      text-align: initial;
+      margin-left: -22px;
+      line-height: 1.8rem;
+
     }
     .device img{
       max-width: 70px;
       border-radius: 70px;
+      margin-left: 35px;
     }
     .device h1{
       position: relative;
@@ -735,7 +840,7 @@ body{
     .device p {
       position: relative;
       top: 13px;
-      right: 45px;
+      right: 72px;
     }
     .form-control{
       height: 52px;
@@ -775,6 +880,10 @@ body{
     .about-image img {
       /* max-width: 580px; */
       margin-top: 102px;
+    }
+    .text-white-1{
+      height: 650px;
+      color: white;
     }
 
 
@@ -967,23 +1076,33 @@ body{
       font-size: 42px;
       font-weight: 800;
       width: 450px;
+      margin-left: 0px;
+      text-align: initial;
+    }
+    .photo{
+      display: none;
     }
     .carousel-inner-1 p{
       width: 360px;
       font-size: 15.5px;
+      margin-left: 0px;
+      text-align: initial
     }
     .device img{
+      position: relative;
+      left: 10px;
       max-width: 70px;
       border-radius: 70px;
     }
     .device h1{
       position: relative;
       top: 10px;
+      left: -4px;
       font-weight: 800;
     }
     .device p {
       position: relative;
-      top: 13px;
+      top: 21px;
       right: 45px;
     }
     .form-control{
@@ -1025,6 +1144,13 @@ body{
       margin-top: 42px;
     }
   
+    .text-white-1 {
+      height: 590px;
+    }
+    .last p{
+      margin-left: 200px;
+      font-size: 15px;
+    }
 
 
   
@@ -1136,6 +1262,7 @@ body{
       color: #f68b1f;
       font-size: 15.5PX;
       font-weight: 700;
+      margin-left: 0px;
       }
     .card{
       background-color: #1b1464;
@@ -1200,14 +1327,23 @@ body{
       font-size: 42px;
       font-weight: 800;
       width: 450px;
+      margin-left: 0px;
+      margin-top: 15px;
+      text-align: initial;
+    }
+    .photo{
+      display: none;
     }
     .carousel-inner-1 p{
       width: 520px;
       font-size: 15.5px;
+      text-align: initial;
+      margin-left: -2px;
     }
     .device img{
       max-width: 70px;
       border-radius: 70px;
+      margin-left: -15px;
     }
     .device h1{
       position: relative;
@@ -1221,7 +1357,7 @@ body{
     .device p {
       position: relative;
       top: 13px;
-      right: 45px;
+      right: 42px;
     }
     .form-control{
       height: 52px;
@@ -1261,6 +1397,10 @@ body{
       max-width: 580px;
       margin-top: -9px;
     }
+    .last p{  
+      margin-left: 350px;
+      font-size: 16px;
+    }
 
 
 
@@ -1294,6 +1434,9 @@ body{
       }
       .about-image img {
         max-width: 580px;
+      }
+      .photo{
+        display: none;
       }
     }
 
