@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap");
+body{
+  font-family: 'Nunito',sans-serif;
+  font-size: 14px;
+  font-weight: 550;
+  max-width: 1348px;
+}
+.logo-img{
+  max-width: 120px;
+  object-fit: contain;
+}
+.icon-bar {
+  position: fixed;
+  top: 34%;
+  left: 0px;
+  z-index: 99;
+}
+.icon-bar div {
+  display: block;
+  text-align: center;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+  color: white;
+  border: 1px solid #fff;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.dropdown-menu{
+  padding: 10px 10px;
+  border-top: 3px solid #f68b1f;
+  margin-left: 13px;
+  width: 250px;
+  height: 300px;
+  line-height: 1.9;
+}
+.phone{
+  background-color: #0000ff;
+}
+.whatapp{
+  background-color: #008000;
+}
+.message{
+  background-color: #ff0000;
+}
+.btn-link{
+  background-color: #f68b1f;
+  width: 160px;
+  color: white;
+  border-radius: 5px;
+}
+.sub-list li{
+  display: flex;
+}
+.btn-primary{
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+.fa-facebook-f {
+  font-size: 15px;
+  position: relative;
+  bottom: 2px;
+  right: -0.5px;
+}
+.fa-youtube{
+  font-size: 15px;
+  position: relative;
+  bottom: 1px;
+  right: 3px;
+}
+.fa-instagram{
+  font-size: 15px;
+  position: relative;
+  bottom: 1px;
+  right: 2px;
+}
+.fa-linkedin-in{
+  font-size: 15px;
+  position: relative;
+  bottom: 1px;
+  right: 2px;
+}
+
+
+
+
+
+
+
+@media(min-width: 236px){
+    .logo-img{
+        max-width: 120px;
+        object-fit: contain;
+    }
+    .animation{
+      height: 340px;
+      background-color: #080e32;
+    }
+    .title-contant{
+      position: relative;
+      top: 150px;
+      left: 20px;
+    }
+    .title-contant h1{
+      font-size: 30px;
+      max-width: 400px;
+      color: white;
+      font-weight: 800;
+      margin-left: 35px;
+    }
+
+
+
+
+
+    
+}
+@media(min-width: 576px){
+    .logo-img{
+        max-width: 150px;
+        object-fit: contain;
+    }
+    .animation{
+      height: 267px;
+      background-color: #080e32;
+    }
+    .title-contant{
+      position: relative;
+      top: 150px;
+      left: 0px;
+    }
+    .title-contant h1{
+      font-size: 30px;
+      max-width: 400px;
+      color: white;
+      font-weight: 800;
+      margin-left: 35px;
+    }
+
+
+
+}
+@media(min-width: 768px){
+    .logo-img{
+        max-width: 200px;
+        object-fit: contain;
+    }
+    .animation{
+      height: 303px;
+      background-color: #080e32;
+    }
+    .title-contant{
+      position: relative;
+      top: 160px;
+      left: 5px;
+    }
+    .title-contant h1{
+      font-size: 38px;
+      max-width: 400px;
+      color: white;
+      font-weight: 800;
+      margin-left: 35px;
+    }
+
+
+
+}
+@media(min-width: 992px){
+    .logo-img{
+        max-width: 200px;
+        object-fit: contain;
+    }
+    .animation{
+      height: 340px;
+      background-color: #080e32;
+    }
+    .title-contant{
+      position: relative;
+      top: 180px;
+      left: 5px;
+    }
+    .title-contant h1{
+      font-size: 40px;
+      max-width: 400px;
+      color: white;
+      font-weight: 800;
+      margin-left: 35px;
+    }
+
+
+
+  
+
+}
+@media(min-width: 1200px){
+    .logo-img{
+        max-width: 256.5px;
+        padding: 16px;
+        object-fit: contain;
+    }
+    .animation{
+      height: 400px;
+      background-color: #080e32;
+    }
+    .title-contant{
+      position: relative;
+      top: 210px;
+      left: -17px;
+    }
+    .title-contant h1{
+      font-size: 45px;
+      max-width: 400px;
+      color: white;
+      font-weight: 800;
+      margin-left: 35px;
+    }
+
+}
+
+
+
+
+
+
+    @media(min-width: 1348px){
+      .logo-img{
+          max-width: 256.5px;
+          object-fit: contain;
+      }
+      .animation{
+        height: 390px;
+        background-color: #080e32;
+      }
+      .title-contant{
+        position: relative;
+        top: 210px;
+        left: -17px;
+      }
+      .title-contant h1{
+        font-size: 45px;
+        max-width: 400px;
+        color: white;
+        font-weight: 800;
+        margin-left: 35px;
+      }
+    }
+     
