@@ -82,6 +82,60 @@ body{
   right: 2px;
 }
 
+.section{
+  width:80%;
+  margin:0 auto;
+  height:400px;
+  position:relative;
+  padding:0
+}
+
+.hscroll-line {
+	bottom:273px;
+	right: 57.5%;
+	height: 1px;
+	position: absolute;
+	overflow: hidden;
+  width:403px;
+  transform: rotate(90deg);
+  tranform-origin:50% 50%;
+ 
+}
+
+
+
+.hscroll-line::before,
+.hscroll-line::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: ""
+}
+
+.hscroll-line:before {
+	background: #ffffff3b;
+}
+
+.hscroll-line::after {
+	background: #ffffff;
+	animation: move 3s infinite
+}
+
+@keyframes move {
+	0% {
+		transform: translate3d(-200%, 0, 0)
+	}
+	60% {
+		transform: translate3d(100%, 0, 0)
+	}
+	100% {
+		transform: translate3d(100%, 0, 0)
+	}
+}
+
+
 
 
 
@@ -108,6 +162,10 @@ body{
       color: white;
       font-weight: 800;
       margin-left: 35px;
+    }
+    .about-imag img{
+      max-width: 143px;
+      margin-top: 131px
     }
 
 
@@ -136,6 +194,10 @@ body{
       color: white;
       font-weight: 800;
       margin-left: 35px;
+    }
+    .about-imag img{
+      max-width: 660px;
+      margin-top: 131px
     }
 
 
@@ -215,6 +277,48 @@ body{
       font-weight: 800;
       margin-left: 35px;
     }
+    .stucture{
+      display: flex;
+  }
+    .about-imag img{
+      max-width: 660px;
+      margin-top: 131px
+    }
+    .full-contant {
+      max-width: 576px;
+      margin-top: 60px;
+      font-size: 16px;
+      margin-left: 17px;
+    }
+
+    .about-contant{
+      margin-top: 13px;
+    }
+    .about-content p{
+      line-height: 1.8;
+      font-size: 16px;
+      color: #4b5280;
+      font-weight: 500;
+    }
+    .full-contant .sub-title{
+      color: #f68b1f;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 15.5px;
+    }
+    /* .order li{
+      position: absolute;
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      text-align: center;
+      background-color: #f68b1f;
+      color: var(--whiteColor);
+      border-radius: 50%;
+      line-height: 32px;
+      -webkit-transition: var(--transition);
+      transition: var(--transition);
+    } */
 
 }
 
