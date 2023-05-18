@@ -222,6 +222,76 @@ ul {
   border-radius: 50%;
   line-height: 32px;
 }
+.feed-back{
+  height: 777px;
+}
+.img-thumbnail-1{
+  border-radius: 9.25rem;
+  position: relative;
+  left: 272px;
+  bottom: 212px;
+  max-width: 135px;
+}
+.img-thumbnail-2{
+  border-radius: 9.25rem;
+  position: relative;
+  right: -63px;
+  bottom: 290px;
+  max-width: 60px;
+}
+.img-thumbnail-3{
+  border-radius: 9.25rem; 
+  position: relative; 
+  bottom: 213px; 
+  left: 235px;
+  max-width: 60px;
+}
+.img-thumbnail-4{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 60px;
+  bottom: 133px;
+  max-width: 60px;
+}
+.mani-contant{
+  margin-top: 0px; 
+  font-size: 28px; 
+  font-weight: 800; 
+}
+.active{
+  margin-top: -205px;
+  text-align: center;
+  font-size: 13px;
+}
+.active p{
+  font-size: 14px;
+  margin-top: 15px;
+  width: 520px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.device img{
+  max-width: 60px; 
+  border-radius: 53px;
+  position: absolute;
+  left: 165px;
+}
+.device h1{
+  position:relative; 
+  bottom: 16px; 
+  font-size: 23px; 
+  font-weight: 800; 
+  left: 245px;
+}
+.device p{
+  position:relative; 
+  top: 13px; 
+  right: -18px;
+}
+.animation-1{
+  margin-left: -70px;
+}
+
 
 
 
@@ -256,7 +326,7 @@ ul {
       margin-top: 131px
     }
     .about-imag img{
-      max-width: 660px;
+      max-width: 523px;
       margin-top: 167px
     }
     .full-contant {
@@ -310,7 +380,75 @@ ul {
   border-radius: 50%;
   line-height: 32px;
 }
-
+.feed-back{
+  height: 777px;
+}
+.img-thumbnail-1{
+  border-radius: 9.25rem;
+  position: relative;
+  left: 272px;
+  bottom: 212px;
+  max-width: 135px;
+}
+.img-thumbnail-2{
+  border-radius: 9.25rem;
+  position: relative;
+  right: -63px;
+  bottom: 290px;
+  max-width: 60px;
+}
+.img-thumbnail-3{
+  border-radius: 9.25rem; 
+  position: relative; 
+  bottom: 213px; 
+  left: 235px;
+  max-width: 60px;
+}
+.img-thumbnail-4{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 60px;
+  bottom: 133px;
+  max-width: 60px;
+}
+.mani-contant{
+  margin-top: 0px; 
+  font-size: 28px; 
+  font-weight: 800; 
+}
+.active{
+  margin-top: -205px;
+  text-align: center;
+  font-size: 13px;
+}
+.active p{
+  font-size: 14px;
+  margin-top: 15px;
+  width: 520px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.device img{
+  max-width: 60px; 
+  border-radius: 53px;
+  position: absolute;
+  left: 165px;
+}
+.device h1{
+  position:relative; 
+  bottom: 16px; 
+  font-size: 23px; 
+  font-weight: 800; 
+  left: 245px;
+}
+.device p{
+  position:relative; 
+  top: 13px; 
+  right: -18px;
+}
+.animation-1{
+  margin-left: -70px;
+}
 
 
 }
@@ -337,6 +475,7 @@ ul {
       width: 690px;
     }
     .about-imag img{
+      margin-left: 23px;
       max-width: 660px;
       margin-top: 167px
     }
@@ -390,6 +529,70 @@ ul {
   border-radius: 50%;
   line-height: 32px;
 }
+.img-thumbnail-1{
+  border-radius: 9.25rem;
+  position: relative;
+  left: 350px;
+  bottom: 212px;
+}
+.img-thumbnail-2{
+  border-radius: 9.25rem;
+  position: relative;
+  right: -36px;
+  bottom: 372px;
+}
+.img-thumbnail-3{
+  border-radius: 9.25rem; 
+  position: relative; 
+  bottom: 213px; 
+  left: 281px;
+}
+.img-thumbnail-4{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 159px;
+  bottom: 67px;
+}
+.mani-contant{
+  margin-top: 0px; 
+  font-size: 35px; 
+  font-weight: 800; 
+}
+.active{
+  margin-top: -205px;
+  text-align: center;
+}
+.active p{
+  font-size: 15px;
+  margin-top: 15px;
+  width: 700px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.device img{
+  max-width: 60px; 
+  border-radius: 53px;
+  position: absolute;
+  left: 40px;
+}
+.device h1{
+  position:relative; 
+  bottom: 16px; 
+  font-size: 23px; 
+  font-weight: 800; 
+  left: 180px;
+}
+.device p{
+  position:relative; 
+  top: 13px; 
+  right: 198px;
+}
+.animation-1{
+  margin-left: -70px;
+}
+.feed-back{
+  height: 915px;
+}
 
 
 
@@ -419,8 +622,9 @@ ul {
       display: flex;
   }
     .about-imag img{
-      max-width: 660px;
-      margin-top: 167px
+      max-width: 480px;
+      margin-top: 167px;
+      margin-left: -29px;
     }
     .full-contant {
       max-width: 576px;
@@ -437,12 +641,17 @@ ul {
       font-size: 16px;
       color: #4b5280;
       font-weight: 500;
+      width: 450px;
+      margin-left: 0px;
     }
     .full-contant .sub-title{
       color: #f68b1f;
       font-weight: 700;
       margin-bottom: 10px;
       font-size: 15.5px;
+      width: 574px;
+      text-align: initial;
+      margin-left: 0px;
     }
     .about-content .features-list {
       padding-left: 0;
@@ -469,6 +678,67 @@ ul {
   color: white;
   border-radius: 50%;
   line-height: 32px;
+}
+.img-thumbnail-1{
+  border-radius: 9.25rem;
+  position: relative;
+  left: 210px;
+  bottom: 197px;
+}
+.img-thumbnail-2{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 82px;
+  bottom: 321px;
+}
+.img-thumbnail-3{
+  border-radius: 9.25rem; 
+  position: relative; 
+  bottom: 193px; 
+  left: 140px;
+}
+.img-thumbnail-4{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 276px;
+  bottom: 78px;
+}
+.mani-contant{
+  margin-top: 0px; 
+  font-size: 37px; 
+  font-weight: 800; 
+}
+.active{
+  margin-top: 10px;
+}
+.active p{
+  width: 480px;
+  font-size: 16px;
+  margin-top: 15px;
+  width: 450px;
+}
+.device img{
+  max-width: 60px; 
+  border-radius: 53px;
+}
+.device h1{
+  position:relative; 
+  bottom: 16px; 
+  font-size: 23px; 
+  font-weight: 800; 
+  left: 16px;
+}
+.device p{
+  position:relative; 
+  top: 13px; 
+  right: 30px;
+}
+.animation-1{
+  margin-left: -70px;
+}
+.feed-back{
+  display: flex;
+  height: 700px;
 }
     
 
@@ -503,7 +773,8 @@ ul {
       display: flex;
   }
     .about-imag img{
-      max-width: 660px;
+      margin-left: -29px;
+      max-width: 615px;
       margin-top: 167px
     }
     .full-contant {
@@ -521,12 +792,17 @@ ul {
       font-size: 16px;
       color: #4b5280;
       font-weight: 500;
+      width: 545px;
+      margin-left: 0px;
     }
     .full-contant .sub-title{
       color: #f68b1f;
       font-weight: 700;
       margin-bottom: 10px;
       font-size: 15.5px;
+      width: 574px;
+      text-align: initial;
+      margin-left: 0px;
     }
     .about-content .features-list {
       padding-left: 0;
@@ -553,6 +829,62 @@ ul {
   color: white;
   border-radius: 50%;
   line-height: 32px;
+}
+.active{
+  margin-top: 10px;
+}
+.img-thumbnail-1{
+  border-radius: 9.25rem;
+  position: relative;
+  left: 252px;
+  bottom: 197px;
+}
+.img-thumbnail-2{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 52px;
+  bottom: 342px;
+}
+.img-thumbnail-3{
+  border-radius: 9.25rem; 
+  position: relative; 
+  bottom: 193px; 
+  left: 196px;
+}
+.img-thumbnail-4{
+  border-radius: 9.25rem;
+  position: relative;
+  right: 242px;
+  bottom: 46px;
+}
+.mani-contant{
+  margin-top: 0px; 
+  font-size: 46px; 
+  font-weight: 800; 
+  line-height: 57px;
+}
+.device img{
+  max-width: 60px; 
+  border-radius: 53px;
+}
+.device h1{
+  position:relative; 
+  bottom: 16px; 
+  font-size: 23px; 
+  font-weight: 800; 
+  left: 16px;
+}
+.device p{
+  position:relative; 
+  top: 13px; 
+  right: 30px;
+}
+.animation-1{
+  margin-left: -70px;
+}
+.feed-back{
+  display: flex;
+  height: 700px;
 }
 
 }
@@ -605,12 +937,17 @@ ul {
         font-size: 16px;
         color: #4b5280;
         font-weight: 500;
+        width: 574px;
+        margin-left: 0px;
       }
       .full-contant .sub-title{
         color: #f68b1f;
         font-weight: 700;
         margin-bottom: 10px;
         font-size: 15.5px;
+        width: 574px;
+        text-align: initial;
+        margin-left: 0px;
       }
       .about-content .features-list {
         padding-left: 0;
@@ -637,6 +974,70 @@ ul {
     color: white;
     border-radius: 50%;
     line-height: 32px;
+  }
+  .active{
+    margin-top: 10px;
+  }
+  .active p{
+    width: 600px;
+    margin-left: 2px;
+  }
+  .sub-title{
+    text-align: initial;
+
+  }
+  .img-thumbnail-1{
+    border-radius: 9.25rem;
+    position: relative;
+    left: 252px;
+    bottom: 197px;
+  }
+  .img-thumbnail-2{
+    border-radius: 9.25rem;
+    position: relative;
+    right: 52px;
+    bottom: 342px;
+  }
+  .img-thumbnail-3{
+    border-radius: 9.25rem; 
+    position: relative; 
+    bottom: 193px; 
+    left: 196px;
+  }
+  .img-thumbnail-4{
+    border-radius: 9.25rem;
+    position: relative;
+    right: 242px;
+    bottom: 46px;
+  }
+  .mani-contant{
+    margin-top: 0px; 
+    font-size: 46px; 
+    font-weight: 800; 
+    line-height: 57px;
+    text-align: initial;
+    width: 450px;
+    margin-left: 2px;
+  }
+  .device img{
+    max-width: 60px; 
+    border-radius: 53px;
+  }
+  .device h1{
+    position:relative; 
+    bottom: 16px; 
+    font-size: 23px; 
+    font-weight: 800; 
+    left: 16px;
+  }
+  .device p{
+    position:relative; 
+    top: 13px; 
+    right: 30px;
+  }
+  .feed-back{
+    display: flex;
+    height: 700px;
   }
     }
      
