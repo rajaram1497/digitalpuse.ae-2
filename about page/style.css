@@ -137,6 +137,11 @@ body{
 ul {
   list-style-type: none;
 }
+.dropdown-menu .dropdown-item{
+  font-size: 16.5px;
+  font-weight: 700;
+  margin-left: -22px;
+}
 
 
 
@@ -223,34 +228,37 @@ ul {
   line-height: 32px;
 }
 .feed-back{
-  height: 777px;
+  height: 1004px;
 }
 .img-thumbnail-1{
   border-radius: 9.25rem;
   position: relative;
-  left: 272px;
+  left: 120px;
   bottom: 212px;
   max-width: 135px;
 }
 .img-thumbnail-2{
   border-radius: 9.25rem;
   position: relative;
-  right: -63px;
+  right: 74px;
   bottom: 290px;
   max-width: 60px;
+}
+.sub-title{
+  color: #f68b1f;
 }
 .img-thumbnail-3{
   border-radius: 9.25rem; 
   position: relative; 
   bottom: 213px; 
-  left: 235px;
+  left: 70px;
   max-width: 60px;
 }
 .img-thumbnail-4{
   border-radius: 9.25rem;
   position: relative;
-  right: 60px;
-  bottom: 133px;
+  right: -66px;
+  bottom: 230px;
   max-width: 60px;
 }
 .mani-contant{
@@ -266,7 +274,7 @@ ul {
 .active p{
   font-size: 14px;
   margin-top: 15px;
-  width: 520px;
+  width: 175px;
   margin-left: 30px;
   font-weight: 600;
 }
@@ -274,7 +282,7 @@ ul {
   max-width: 60px; 
   border-radius: 53px;
   position: absolute;
-  left: 165px;
+  left: 33px;
 }
 .device h1{
   position:relative; 
@@ -290,6 +298,53 @@ ul {
 }
 .animation-1{
   margin-left: -70px;
+}
+.form-control{
+  height: 55px;
+  width: 225px;
+  margin-left: 16px;
+}
+.name{
+  margin-top: 145px; 
+  gap: 10px;
+
+}
+.get-start h1{
+  position: relative;
+  text-align: center;
+  font-size: 1.75rem;
+  top: 140px;
+  left: 30px;
+  font-weight: 800;
+  width: 200px;
+}
+.btn-danger{
+  position: absolute;
+  left: 55px;
+  margin-top: 15px;
+  width: 135px;
+}
+.form{
+  height: 530px;
+  background-color: #f68b1f;
+  margin-top: -305px;
+}
+.content{
+  font-size: 25px;
+  font-weight: 800;
+}
+.paragraph p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.paragraph-1 p{
+  font-size: 16px;
+}
+.text-white-1{
+  height: 1500px;
+  color: white;
 }
 
 
@@ -449,6 +504,53 @@ ul {
 .animation-1{
   margin-left: -70px;
 }
+.form-control{
+  height: 55px;
+  width: 535px;
+}
+.name{
+  margin-top: 145px; 
+  gap: 10px;
+
+}
+.get-start h1{
+  position: relative;
+  text-align: center;
+  font-size: 1.75rem;
+  top: 140px;
+  left: 30px;
+  font-weight: 800;
+  width: 513px;
+}
+.btn-danger{
+  position: absolute;
+  left: 215px;
+  margin-top: 15px;
+  width: 135px;
+}
+.form{
+  height: 513px;
+  background-color: #f68b1f;
+  margin-top: -305px;
+}
+.content{
+  font-size: 25px;
+  font-weight: 800;
+}
+.paragraph p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.paragraph-1 p{
+  font-size: 16px;
+}
+.text-white-1{
+  height: 1180px;
+  color: white;
+}
+
 
 
 }
@@ -529,29 +631,36 @@ ul {
   border-radius: 50%;
   line-height: 32px;
 }
+.sub-title{
+  color: #f68b1f;
+}
 .img-thumbnail-1{
   border-radius: 9.25rem;
   position: relative;
   left: 350px;
   bottom: 212px;
+  max-width: 200px;
 }
 .img-thumbnail-2{
   border-radius: 9.25rem;
   position: relative;
-  right: -36px;
-  bottom: 372px;
+  right: -54px;
+  bottom: 335px;
+  max-width: 100px;
 }
 .img-thumbnail-3{
   border-radius: 9.25rem; 
   position: relative; 
   bottom: 213px; 
-  left: 281px;
+  left: 303px;
+  max-width: 100px;
 }
 .img-thumbnail-4{
   border-radius: 9.25rem;
   position: relative;
-  right: 159px;
-  bottom: 67px;
+  right: 133px;
+  bottom: 92px;
+  max-width: 100px;
 }
 .mani-contant{
   margin-top: 0px; 
@@ -592,6 +701,50 @@ ul {
 }
 .feed-back{
   height: 915px;
+}
+.form-control{
+  height: 52px;
+  width: 278px;
+}
+.name{
+  margin-top: 145px; 
+  gap: 0px;
+}
+.get-start h1{
+  position: relative;
+  text-align: center;
+  font-size: 1.75rem;
+  top: 140px;
+  left: 200px;
+  font-weight: 800;
+}
+.btn-danger{
+  position: absolute;
+  left: 345px;
+  margin-top: 15px;
+  width: 135px;
+}
+.form{
+  height: 513px;
+  background-color: #f68b1f;
+  margin-top: -305px;
+}
+.content{
+  font-size: 25px;
+  font-weight: 800;
+}
+.paragraph p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.paragraph-1 p{
+  font-size: 16px;
+}
+.text-white-1{
+  height: 650px;
+  color: white;
 }
 
 
@@ -679,66 +832,127 @@ ul {
   border-radius: 50%;
   line-height: 32px;
 }
+.sub-title{
+  color: orange;
+  margin-top: 195px;
+  font-size: 15.5px;
+  font-weight: 700;
+  text-align: initial;
+}
+.active p{
+font-size: 16px;
+margin-top: 15px;
+width: 472px;
+text-align: initial;
+margin-left: 1px;
+}
 .img-thumbnail-1{
   border-radius: 9.25rem;
   position: relative;
-  left: 210px;
+  left: 255px;
   bottom: 197px;
+  max-width: 230px;
 }
 .img-thumbnail-2{
   border-radius: 9.25rem;
   position: relative;
-  right: 82px;
-  bottom: 321px;
+  right: 35px;
+  bottom: 325px;
+  max-width: 100px;
 }
 .img-thumbnail-3{
   border-radius: 9.25rem; 
   position: relative; 
   bottom: 193px; 
-  left: 140px;
+  left: 188px;
+  max-width: 100px;
 }
 .img-thumbnail-4{
   border-radius: 9.25rem;
   position: relative;
-  right: 276px;
-  bottom: 78px;
+  right: 228px;
+  bottom: 68px;
+  max-width: 100px;
 }
+
 .mani-contant{
   margin-top: 0px; 
-  font-size: 37px; 
+  font-size: 38px; 
   font-weight: 800; 
-}
-.active{
-  margin-top: 10px;
-}
-.active p{
-  width: 480px;
-  font-size: 16px;
-  margin-top: 15px;
-  width: 450px;
+  line-height: 57px;
+  text-align: initial;
 }
 .device img{
   max-width: 60px; 
   border-radius: 53px;
+  position: absolute;
+  left: 4px;
 }
 .device h1{
   position:relative; 
   bottom: 16px; 
   font-size: 23px; 
   font-weight: 800; 
-  left: 16px;
+  left: 80px;
 }
 .device p{
   position:relative; 
   top: 13px; 
-  right: 30px;
+  right: -32px;
 }
 .animation-1{
-  margin-left: -70px;
+  margin-left: -115px;
 }
 .feed-back{
   display: flex;
   height: 700px;
+}
+.form-control{
+  height: 52px;
+  width: 225px;
+}
+.name{
+  margin-top: 145px; 
+  gap: 90px;
+}
+.get-start h1{
+  position: relative;
+  text-align: center;
+  font-size: 1.75rem;
+  top: 140px;
+  left: 360px;
+  font-weight: 800;
+}
+.btn-danger{
+  position: absolute;
+  left: 470px;
+  margin-top: 15px;
+  width: 135px;
+}
+.form{
+  height: 513px;
+  background-color: #f68b1f;
+  margin-top: -305px;
+}
+.content{
+  font-size: 25px;
+  font-weight: 800;
+}
+.paragraph p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.paragraph-1 p{
+  font-size: 16px;
+}
+.text-white-1 {
+  height: 590px;
+}
+.last p{
+  margin-left: 200px;
+  font-size: 15px;
 }
     
 
@@ -833,58 +1047,128 @@ ul {
 .active{
   margin-top: 10px;
 }
+.sub-title{
+  color: orange;
+  margin-top: 0px;
+  font-size: 15.5px;
+  font-weight: 700;
+  text-align: initial;
+}
+.active p{
+font-size: 16px;
+margin-top: 15px;
+width: 575px;
+text-align: initial;
+margin-left: 1px;
+}
 .img-thumbnail-1{
   border-radius: 9.25rem;
   position: relative;
-  left: 252px;
+  left: 305px;
   bottom: 197px;
+  max-width: 230px;
 }
 .img-thumbnail-2{
   border-radius: 9.25rem;
   position: relative;
-  right: 52px;
-  bottom: 342px;
+  right: 5px;
+  bottom: 325px;
+  max-width: 100px;
 }
 .img-thumbnail-3{
   border-radius: 9.25rem; 
   position: relative; 
   bottom: 193px; 
-  left: 196px;
+  left: 250px;
+  max-width: 100px;
 }
 .img-thumbnail-4{
   border-radius: 9.25rem;
   position: relative;
-  right: 242px;
+  right: 198px;
   bottom: 46px;
+  max-width: 100px;
 }
+
 .mani-contant{
   margin-top: 0px; 
   font-size: 46px; 
   font-weight: 800; 
   line-height: 57px;
+  text-align: initial;
 }
 .device img{
   max-width: 60px; 
   border-radius: 53px;
+  position: absolute;
+  left: 4px;
 }
 .device h1{
   position:relative; 
   bottom: 16px; 
   font-size: 23px; 
   font-weight: 800; 
-  left: 16px;
+  left: 80px;
 }
 .device p{
   position:relative; 
   top: 13px; 
-  right: 30px;
+  right: -32px;
 }
 .animation-1{
-  margin-left: -70px;
+  margin-left: -115px;
 }
 .feed-back{
   display: flex;
   height: 700px;
+}
+.form-control{
+  height: 52px;
+  width: 225px;
+}
+.name{
+  margin-top: 145px; 
+  gap: 30px;
+}
+.get-start h1{
+  position: relative;
+  text-align: center;
+  font-size: 1.75rem;
+  top: 140px;
+  left: 420px;
+  font-weight: 800;
+}
+.btn-danger{
+  position: absolute;
+  left: 615px;
+  margin-top: 15px;
+  width: 135px;
+}
+.form{
+  height: 420px;
+  background-color: #f68b1f;
+  margin-top: -305px;
+}
+.content{
+  font-size: 25px;
+  font-weight: 800;
+}
+.paragraph p{
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+.paragraph-1 p{
+  font-size: 16px;
+}
+.text-white-1{
+  height: 545px;
+  color: white;
+}
+.last p{  
+  margin-left: 350px;
+  font-size: 16px;
 }
 
 }
@@ -979,8 +1263,10 @@ ul {
     margin-top: 10px;
   }
   .active p{
-    width: 600px;
+    width: 590px;
     margin-left: 2px;
+    text-align: initial;
+    font-size: 16px;
   }
   .sub-title{
     text-align: initial;
@@ -989,26 +1275,36 @@ ul {
   .img-thumbnail-1{
     border-radius: 9.25rem;
     position: relative;
-    left: 252px;
+    left: 305px;
     bottom: 197px;
+    max-width: 230px;
   }
   .img-thumbnail-2{
     border-radius: 9.25rem;
     position: relative;
-    right: 52px;
-    bottom: 342px;
+    right: 5px;
+    bottom: 325px;
+    max-width: 100px;
   }
   .img-thumbnail-3{
     border-radius: 9.25rem; 
     position: relative; 
     bottom: 193px; 
-    left: 196px;
+    left: 250px;
+    max-width: 100px;
   }
   .img-thumbnail-4{
     border-radius: 9.25rem;
     position: relative;
-    right: 242px;
+    right: 198px;
     bottom: 46px;
+    max-width: 100px;
+  }
+  .sub-title{
+    color: orange;
+    margin-top: 0px;
+    font-size: 15.5px;
+    font-weight: 700;
   }
   .mani-contant{
     margin-top: 0px; 
@@ -1016,28 +1312,35 @@ ul {
     font-weight: 800; 
     line-height: 57px;
     text-align: initial;
-    width: 450px;
+    width: 490px;
     margin-left: 2px;
   }
   .device img{
     max-width: 60px; 
     border-radius: 53px;
+    position: absolute;
+    left: 1px;
   }
   .device h1{
     position:relative; 
     bottom: 16px; 
     font-size: 23px; 
     font-weight: 800; 
-    left: 16px;
+    left: 73px;
   }
   .device p{
     position:relative; 
     top: 13px; 
-    right: 30px;
+    right: -25px;
   }
   .feed-back{
     display: flex;
     height: 700px;
+  }
+  .form{
+    height: 420px;
+    background-color: #f68b1f;
+    margin-top: -305px;
   }
     }
      
